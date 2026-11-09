@@ -1,19 +1,3 @@
-// const App = () => {
-//   const names = ['Idris', 'Sam', 'AB', 'Nelson' ];
-
-//   return (
-//     <>
-//       <div classNameName="text-5xl ">App</div>
-//       <ul>
-//         {names.map((name, index) => (
-//           <li key={index}>{name}</li> ))}
-//       </ul>
-
-//     </>
-//   );
-// };
-
-// export default App;
 import {
   Route,
   createBrowserRouter,
@@ -25,7 +9,7 @@ import MainLayout from "./layouts/MainLayout";
 import JobsPage from "./pages/JobsPage";
 import NotFound from "./pages/NotFound";
 import JobPage, { jobLoader } from "./pages/JobPage";
-import AddJobPage from "./pages/addJobPage";
+import AddJobPage from "./pages/AddJobPage";
 import EditJobPage from "./pages/EditJobPage";
 
 const App = () => {
